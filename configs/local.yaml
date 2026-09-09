@@ -1,0 +1,9 @@
+# Full local experiment. CPU works but takes substantially longer than a GPU.
+data: data/local-full/data.yaml
+weights: models/yolov8n.pt
+epochs: 50
+patience: 10
+batch: -1
+device: auto
+project: runs
+name: detrac_local

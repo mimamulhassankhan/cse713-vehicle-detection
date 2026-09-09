@@ -1,0 +1,9 @@
+# A small execution check, not a model-quality experiment.
+data: data/smoke-ready/data.yaml
+weights: models/yolov8n.pt
+epochs: 2
+patience: 10
+batch: 4
+device: auto
+project: runs
+name: detrac_smoke

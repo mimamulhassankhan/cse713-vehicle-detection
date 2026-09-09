@@ -1,0 +1,9 @@
+# An epoch is one pass through the training images.
+data: data/full/data.yaml
+weights: models/yolov8n.pt
+epochs: 50
+patience: 10
+batch: -1
+device: auto
+project: runs
+name: detrac_full

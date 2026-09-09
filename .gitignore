@@ -1,0 +1,40 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.runtime/
+Ultralytics/
+*.log
+data/
+runs/
+outputs/
+*.pt
+*.zip
+
+# Raw datasets and alternative download locations
+datasets/
+DETRAC*/
+annotations/
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Downloaded/trained model artifacts
+models/
+*.pth
+*.onnx
+*.engine
+*.safetensors
+
+# Local configuration, credentials and generated caches
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.py[cod]
+.ipynb_checkpoints/
+*.cache
+.DS_Store
+Thumbs.db
